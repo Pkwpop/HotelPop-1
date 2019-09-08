@@ -1,0 +1,13 @@
+hotel_name: String
+person: Number
+facilities:
+  electronics: Array
+  ferniture: Array
+price: Number
+distance: Number
+address: String
+post_code: Number
+phone_number: Array
+alley_name: String
+alley_number: String
+high_season_price: Number
