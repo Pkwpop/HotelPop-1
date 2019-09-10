@@ -50,11 +50,7 @@ export const Data = [
     alley_name: "เภสัชกรโต",
     alley_number: "2",
     high_season_price: 0,
-    image: [
-      "https://drive.google.com/open?id=1LeoQoVvcNjfk-_fsm8OOLJCPsVnFPNva",
-      "https://drive.google.com/open?id=1AooSXF2teXgG0sVRDRoHNg0aQj-Nnurw",
-      "https://drive.google.com/open?id=1lVJ6Hcd1DlWYIw5YNcwyIc0YcmKZj-kx"
-    ]
+    image: ["", "https://imgur.com/vMQILQC", "https://imgur.com/e13mJao"]
   },
   {
     hotel_name: "The Noble",
@@ -78,12 +74,11 @@ export const Data = [
     alley_number: "2",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1zx9Q1Og3eynok7IHUCHHCD2yVT3GOBzH",
-      "https://drive.google.com/open?id=1SCew8FTrrcYy2Hh9A7I5KsqzlnyeikQb",
-      "https://drive.google.com/open?id=1QaxLl_V9La4kbSAZBnUhVnzSKsgjdZZf",
-      "https://drive.google.com/open?id=1_knd4kVtK6KQZM8LFMb3O1z9S30iqcw5",
-      "https://drive.google.com/open?id=1q1kA5WNBkOq4Z94_aVOIU3u5rpIXkx7Z",
-      "https://drive.google.com/open?id=1SvCor9vc0FysQ8pZ70tUS8Y0Ysw7TcBj"
+      "https://imgur.com/ahcLuZ9",
+      "https://imgur.com/R3fK0Q9",
+      "https://imgur.com/oapc9J7",
+      "https://imgur.com/01kx5QW",
+      "https://imgur.com/SF7q3UF"
     ]
   },
   {
@@ -108,15 +103,13 @@ export const Data = [
     alley_number: "4",
     high_season_price: 1200,
     image: [
-      "https://drive.google.com/open?id=1_2N5J62t-Fz6yRvOszaoWuJAGboZfx1F",
-      "https://drive.google.com/open?id=1mrDnHqXz5gFJM2JshhuAJH3Orgyf3FEG",
-      "https://drive.google.com/open?id=1ZR17IQyKadDIpQBQOXCj2M3bZj5Y4SCC",
-      "https://drive.google.com/open?id=1sqrnN6v_eWCaSiDBmjOUS67sgpxWrpyc",
-      "https://drive.google.com/open?id=186pXlSpvhlEu8_mrwRFQarKOCFp4W8sZ",
-      "https://drive.google.com/open?id=1vPQUgIZ7qZd-B7CwRkQ7T1lefxiy_t_D",
-      "https://drive.google.com/open?id=10asO0QB1oLenLSLeWiCRgAfQ6JnR--we",
-      "https://drive.google.com/open?id=1juBWStuYh-bGhkw3LNJQJ7m8fM9Yn9nY",
-      "https://drive.google.com/open?id=18vmrzgsTm0dMcksSEbGm-O2Suod5yKt5"
+      "https://imgur.com/E6D1Ee2",
+      "https://imgur.com/XK5CJIP",
+      "https://imgur.com/0dqZE2E",
+      "https://imgur.com/DqfpB8l",
+      "https://imgur.com/KCHJaKD",
+      "https://imgur.com/HTny9Nh",
+      "https://imgur.com/M5RXIQ8"
     ]
   },
   {
@@ -170,12 +163,12 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1kD5J0NPtM3dmIeVtJuBaXonzPVCNUxjz",
-      "https://drive.google.com/open?id=1hno9txY6naFeWj0wEqKJUvN0rvlU-w1O",
-      "https://drive.google.com/open?id=1D4FlGCYVtVus2FDRuPIfh6LKKR2Pp55g",
-      "https://drive.google.com/open?id=1e8wk0UuBYfgyKzyBngees4-zbbU758Dg",
-      "https://drive.google.com/open?id=1DEGuWm7WDiHKJjL2b3p0YI7zRHktEeaU",
-      "https://drive.google.com/open?id=1mDjF3qEj8ul3MnoNs4AXEMa6xhHfUk9x"
+      "https://imgur.com/5b0X8pq",
+      "https://imgur.com/KLwXOLE",
+      "https://imgur.com/uYcfqxo",
+      "https://imgur.com/k1um8L7",
+      "https://imgur.com/KVlk9XG",
+      "https://imgur.com/QK5LKBB"
     ]
   },
   {
@@ -200,14 +193,11 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1QPin-mtRl0Up_75RKqA6GKxHI8g3KqEd",
-      "https://drive.google.com/open?id=1hhQ3H730rpMUsRwIfk0VpU1Czpq2Cchs",
-      "https://drive.google.com/open?id=13vsBaX9bNJBEEqR9DCPN_oRK5KZvJJno",
-      "https://drive.google.com/open?id=1y9nVmRouBL2ofFkvpBW4XAzw-rmD_n2O",
-      "https://drive.google.com/open?id=1Kx5KmuEkL3hE8ScrkFUPc4E7YQ-7xXCs",
-      "https://drive.google.com/open?id=1Hs1dtVTMe9u55HfACnON15aG4mFf79xP",
-      "https://drive.google.com/open?id=1Hs1dtVTMe9u55HfACnON15aG4mFf79xP",
-      "https://drive.google.com/open?id=19b_WSGrb6esSigD3gE955V3ACwi2qIN-"
+      "https://imgur.com/o0v04pJ",
+      "https://imgur.com/uweFH8P",
+      "https://imgur.com/EP24cBv",
+      "https://imgur.com/B329ytp",
+      "https://imgur.com/qVV2sik"
     ]
   },
   {
@@ -253,13 +243,15 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1ZLuSO4SI4cSMUdzHunZ-AlWBzqK1f3C1",
-      "https://drive.google.com/open?id=1Kksa7ZcXlzQTjx4FutesayIOWi3wrWc4",
-      "https://drive.google.com/open?id=10lFp9RI01Wge4B-6b2Ed5J5kvyBdbgGS",
-      "https://drive.google.com/open?id=1cnqWZCURByCMPGIsH_ZFmnsctwMZyk1A",
-      "https://drive.google.com/open?id=1ySoZKULyVhkIhEsCqy-wZAI6BRsMDAIr",
-      "https://drive.google.com/open?id=1cw_tp4dSh4ehw38vrreQLoY5blL4tm-b",
-      "https://drive.google.com/open?id=1STbVT7Hlmr4j6iH-RZrIPDJanMeZAAix"
+      "https://imgur.com/0Go054w",
+      "https://imgur.com/fz3Sj3G",
+      "https://imgur.com/U8rN1bc",
+      "https://imgur.com/iUhHley",
+      "https://imgur.com/T7RjLfa",
+      "https://imgur.com/Xnq0mFn",
+      "https://imgur.com/Ltvk1bZ",
+      "https://imgur.com/R3AjEYg",
+      "https://imgur.com/Y2x0Yi9"
     ]
   },
   {
@@ -278,10 +270,13 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1iB1etjjvAnvvHBSrPGyz8yVVQuHu8E-Y",
-      "https://drive.google.com/open?id=1JWp4uVtoOo6Z9jP00K5NMSKRIrNt4br7",
-      "https://drive.google.com/open?id=1G-taXpUG0y-1WplWQL3fieLBWrDzl_32",
-      "https://drive.google.com/open?id=16iM5d0cTro5mPtXSWjY0-NL6yc5Kj9FY"
+      "https://imgur.com/F6AO5dJ",
+      "https://imgur.com/xHnByHt",
+      "https://imgur.com/H60bGXC",
+      "https://imgur.com/ieBnYCF",
+      "https://imgur.com/wQQ9q37",
+      "https://imgur.com/FD06PhO",
+      "https://imgur.com/g0t8ooH"
     ]
   },
   {
@@ -306,11 +301,11 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1YQKylTfpast0VOnU1S5r982paBIBpmBW",
-      "https://drive.google.com/open?id=14A0GLoRrcESZ0ismNhUeYNUDtU81JpOS",
-      "https://drive.google.com/open?id=14d-a-VjSUpOxUjMpUG5WnNiQW0xslrb7",
-      "https://drive.google.com/open?id=12NplZq8DOZMeBgBfK4ypwNRBzvE_x23w",
-      "https://drive.google.com/open?id=1nPx89pIWZLFUvPQEIEoxpe8Hdrd-iH6X"
+      "https://imgur.com/cMi4mmF",
+      "https://imgur.com/N5hEjyH",
+      "https://imgur.com/UlY0gOy",
+      "https://imgur.com/cdzlcD0",
+      "https://imgur.com/thcmC2u"
     ]
   },
   {
@@ -329,9 +324,11 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1umnaGhv6e_7-FbDK-IvaGLT5w_0KvnZ5",
-      "https://drive.google.com/open?id=1_y_ArPXYraaAVDhqV5ia6EV1PL_uJKfi",
-      "https://drive.google.com/open?id=1emAdqcxctgMGYCpNlpnBMW9rj0vRasiH"
+      "https://imgur.com/K7yejOT",
+      "https://imgur.com/HXZmkAx",
+      "https://imgur.com/iMPWH8H",
+      "https://imgur.com/P0eE3LM",
+      "https://imgur.com/bcXlPsW"
     ]
   },
   {
@@ -356,9 +353,9 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1FTvBIKQek4dIOuIBlF5kNfEk2pFHU4Ta",
-      "https://drive.google.com/open?id=1So8uGCF8Bx9KmQLvjxz2oD8tQC22I9Pr",
-      "https://drive.google.com/open?id=19ydWQt7AyABC8ej8JTh_faB8sMF4IkOL"
+      "https://imgur.com/6OWPgWk",
+      "https://imgur.com/mJ08OO2",
+      "https://imgur.com/JTsdJdT"
     ]
   },
   {
@@ -536,4 +533,14 @@ export const Data = [
       "https://drive.google.com/open?id=1k_cYtjwA27xPEOJkOlEd-qkCyxGOkYVh"
     ]
   }
+];
+
+export const Alley = [
+  { name: "แดนตะวัน" },
+  { name: "เภสัชกรโต" },
+  { name: "วัดอุโมงค์" },
+  {
+    name: "วัดป่าแดง"
+  },
+  { name: "บ้านใหม่หลังมอ" }
 ];

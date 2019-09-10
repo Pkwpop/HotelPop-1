@@ -1,6 +1,6 @@
 import React from "react";
 import { Select } from "antd";
-import { Data } from "../data";
+import { Data, Alley } from "../data";
 
 class SearchName extends React.Component {
   state = {
@@ -19,13 +19,11 @@ class SearchName extends React.Component {
   };
 
   render() {
-    const option = Data.map(res => (
-      <Select key={res.hotel_name}>{res.hotel_name}</Select>
-    ));
+    const option = Alley.map(res => <Select key={res.name}>{res.name}</Select>);
     return (
       <Select
         showSearch
-        placeholder="Name"
+        placeholder="ซอย"
         style={{ width: "40%", margin: 5 }}
         showArrow={false}
         notFoundContent={null}
