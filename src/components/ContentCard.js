@@ -5,7 +5,7 @@ import { Car, Bed } from "styled-icons/boxicons-solid";
 import { PriceTag } from "styled-icons/icomoon";
 import { Wifi, Phone, People } from "styled-icons/material";
 import { Elec } from "styled-icons/crypto";
-import SimpleMap from "./googleMaps";
+import MapComponent from "./googleMaps";
 
 const { Meta } = Card;
 export const ContentCard = ({
@@ -19,10 +19,10 @@ export const ContentCard = ({
   PhoneNumber,
   Electronics,
   Furniture,
-  Person
+  Person,
+  Maps
 }) => {
   const [visible, setVisibleModal] = useState(false);
-
   useEffect(() => {
     document.title = `You clicked ${visible} times`;
   });
@@ -122,7 +122,7 @@ export const ContentCard = ({
             </div>
           </Col>
           <Col span={8}>
-            <SimpleMap />
+            <MapComponent Latitude={Maps[0]} Longitude={Maps[1]} />
           </Col>
         </Row>
       </Modal>

@@ -21,7 +21,13 @@ export const Data = [
     alley_name: "แดนตะวัน",
     alley_number: "1",
     high_season_price: 0,
-    image: []
+    image: [
+      "https://imgur.com/mGKZkmF",
+      "https://imgur.com/jriZdo5",
+      " https://imgur.com/yuKBJjO",
+      " https://imgur.com/m82sBGr"
+    ],
+    map: [18.787939, 98.958793]
   },
   {
     hotel_name: "MD Hill Place",
@@ -50,7 +56,8 @@ export const Data = [
     alley_name: "เภสัชกรโต",
     alley_number: "2",
     high_season_price: 0,
-    image: ["", "https://imgur.com/vMQILQC", "https://imgur.com/e13mJao"]
+    image: ["https://imgur.com/vMQILQC", "https://imgur.com/e13mJao"],
+    map: [18.788278, 98.957647]
   },
   {
     hotel_name: "The Noble",
@@ -79,7 +86,8 @@ export const Data = [
       "https://imgur.com/oapc9J7",
       "https://imgur.com/01kx5QW",
       "https://imgur.com/SF7q3UF"
-    ]
+    ],
+    map: [18.788314, 98.957442]
   },
   {
     hotel_name: "Tuck Me In",
@@ -110,7 +118,8 @@ export const Data = [
       "https://imgur.com/KCHJaKD",
       "https://imgur.com/HTny9Nh",
       "https://imgur.com/M5RXIQ8"
-    ]
+    ],
+    map: [18.791658, 98.956591]
   },
   {
     hotel_name: "โชคชัยทาวเวอร์",
@@ -134,12 +143,13 @@ export const Data = [
     alley_number: "4",
     high_season_price: 600,
     image: [
-      "https://drive.google.com/open?id=1XPvdaAJCP5i6g7RNYXZHdxXXccciur0C",
-      "https://drive.google.com/open?id=1M0kTho2oYhdyWzDt3PPIjg6LM52KHh1X",
-      "https://drive.google.com/open?id=1zzBwjCYdPHnPRNcl1jO_wRG2z1onZaQ0",
-      "https://drive.google.com/open?id=1AHtAvrVDZXC4dNaHNcq8UOEwrEQoad8-",
-      "https://drive.google.com/open?id=1v37JjDt_CwOvy2MsOolYhjQXcPZRMc-8"
-    ]
+      "https://imgur.com/OrkTwQm",
+      "https://imgur.com/2lHMyD7",
+      "https://imgur.com/BQ2GdWn",
+      "https://imgur.com/5JlTn6L",
+      "https://imgur.com/U71PgXZ"
+    ],
+    map: [18.7910778, 98.9563632]
   },
   {
     hotel_name: "U Sleep",
@@ -169,7 +179,8 @@ export const Data = [
       "https://imgur.com/k1um8L7",
       "https://imgur.com/KVlk9XG",
       "https://imgur.com/QK5LKBB"
-    ]
+    ],
+    map: [18.790866, 98.956389]
   },
   {
     hotel_name: "Smile Mansion",
@@ -198,7 +209,8 @@ export const Data = [
       "https://imgur.com/EP24cBv",
       "https://imgur.com/B329ytp",
       "https://imgur.com/qVV2sik"
-    ]
+    ],
+    map: [18.787577, 98.954938]
   },
   {
     hotel_name: "บ้านศรีพยงค์",
@@ -216,10 +228,11 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1RM6m_5y16uljNCXgXDwAlD3c-7_5k_WL",
-      "https://drive.google.com/open?id=1niomLmqLxTE8POqANkh1tun9Gd4UJ96A",
-      "https://drive.google.com/open?id=1OdgziaYZkJYZU3_rFe93JohOw_zV56RZ"
-    ]
+      "https://imgur.com/U5lFoR4",
+      "https://imgur.com/s0KbXqi",
+      "https://imgur.com/ehSnk4X"
+    ],
+    map: [18.772432, 98.945807]
   },
   {
     hotel_name: "Central Hill Place",
@@ -252,7 +265,8 @@ export const Data = [
       "https://imgur.com/Ltvk1bZ",
       "https://imgur.com/R3AjEYg",
       "https://imgur.com/Y2x0Yi9"
-    ]
+    ],
+    map: [18.788374, 98.952676]
   },
   {
     hotel_name: "Insight",
@@ -277,7 +291,8 @@ export const Data = [
       "https://imgur.com/wQQ9q37",
       "https://imgur.com/FD06PhO",
       "https://imgur.com/g0t8ooH"
-    ]
+    ],
+    map: [18.786496, 98.95356]
   },
   {
     hotel_name: "SP Palace",
@@ -306,7 +321,8 @@ export const Data = [
       "https://imgur.com/UlY0gOy",
       "https://imgur.com/cdzlcD0",
       "https://imgur.com/thcmC2u"
-    ]
+    ],
+    map: [18.785471, 98.955436]
   },
   {
     hotel_name: "For Rest Hill",
@@ -329,7 +345,8 @@ export const Data = [
       "https://imgur.com/iMPWH8H",
       "https://imgur.com/P0eE3LM",
       "https://imgur.com/bcXlPsW"
-    ]
+    ],
+    map: [18.779369, 98.950449]
   },
   {
     hotel_name: "Top Mansion",
@@ -356,7 +373,8 @@ export const Data = [
       "https://imgur.com/6OWPgWk",
       "https://imgur.com/mJ08OO2",
       "https://imgur.com/JTsdJdT"
-    ]
+    ],
+    map: [18.7786722, 98.9507385]
   },
   {
     hotel_name: "เรสซิเดนซ์ฮิลล์",
@@ -379,7 +397,13 @@ export const Data = [
     alley_name: "วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
-    image: []
+    image: [
+      "https://imgur.com/GYEvTBX",
+      "https://imgur.com/YmojYMh",
+      "https://imgur.com/c021XMA",
+      "https://imgur.com/Zt31Agv"
+    ],
+    map: [18.777899, 98.951688]
   },
   {
     hotel_name: "นอนนิด นอนหน่อย",
@@ -403,12 +427,15 @@ export const Data = [
     alley_number: "4",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1bLP-Wu7VhArRB5r_UNCuBTNJaGEUkuA4",
-      "https://drive.google.com/open?id=14YXhm39zA4xRfQqrtp6b7okX5IQ-SX1-",
-      "https://drive.google.com/open?id=1m5TTKrnAcn2aYxUibZeaAVankV3kFVZB",
-      "https://drive.google.com/open?id=1IOQ8Fza-QBbiK2eTBHD08BB8kZvhNitk",
-      "https://drive.google.com/open?id=1TTspTvKWj9W2gMiTRE5eTApz_2oT58Am"
-    ]
+      "https://imgur.com/Bz1MkfS",
+      "https://imgur.com/y1FuVeF",
+      "https://imgur.com/9Fw34AN",
+      "https://imgur.com/YfLNtks",
+      "https://imgur.com/UuTofWV",
+      "https://imgur.com/X3WUAbC",
+      "https://imgur.com/8MQBI4D"
+    ],
+    map: [18.7777789, 98.9518573]
   },
   {
     hotel_name: "บ้านกิ่งไผ่",
@@ -425,12 +452,11 @@ export const Data = [
     alley_name: "วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
-    image: [
-      "https://drive.google.com/open?id=1ey0szM1p0-6CQIYfxDogGH-hoUDU7P7w"
-    ]
+    image: ["https://imgur.com/7S5lkKL", "https://imgur.com/tcEeeiE"],
+    map: [18.7776991, 98.9504173]
   },
   {
-    hotel_name: "สิริกร วิลล่า",
+    hotel_name: "สิริธร วิลล่า",
     person: 2,
     facilities: {
       electronics: [
@@ -451,14 +477,13 @@ export const Data = [
     alley_number: "5",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1DPx5SCjGUJSSVgu2id55Ow565cLSWsLc",
-      "https://drive.google.com/open?id=1ogbLwgT4QeMfJQiVQQCTFtx67AC0Yvjr",
-      "https://drive.google.com/open?id=17s62kKhh1W3wEKGnKexhfMEqi0bzBdD2",
-      "https://drive.google.com/open?id=1XJuPu3Ur0HxcBwwRTO5CBM_gsxUOMPWW",
-      "https://drive.google.com/open?id=1Z0liTGsRMHFG-VEENjx755sGOU19l9Dc",
-      "https://drive.google.com/open?id=1xm2XBxcqOJ26yUeI4HsUKbWWQtlh7sau",
-      "https://drive.google.com/open?id=1H8DTXY_B3Kz6v3tncOwCi9b0k7s8ttgV"
-    ]
+      "https://imgur.com/rKslT6s",
+      "https://imgur.com/Evi1053",
+      "https://imgur.com/CHVBXYC",
+      "https://imgur.com/MSVOfBP",
+      "https://imgur.com/rX0xZQx"
+    ],
+    map: [18.791585, 98.9555125]
   },
   {
     hotel_name: "นอนเพลิน",
@@ -476,18 +501,14 @@ export const Data = [
     alley_number: "6",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1LFLqhx3113Mrr-cwx1oeqhaPfx8mdlfY",
-      "https://drive.google.com/open?id=1gH3uG2NQON1U7QJU7T4J_tBGgQmdEjga",
-      "https://drive.google.com/open?id=1oq2CZqv8FXmqd0Xef7NT3CdWMe35SWax",
-      "https://drive.google.com/open?id=1_vqlN_aBpw-qNccPO58XBjry53dZSrKD",
-      "https://drive.google.com/open?id=1WHADCFyZB72smw8b3-r7wtxEZWE385co",
-      "https://drive.google.com/open?id=1qbaYqIvJjAab4I9zBYFR_150eaIfsndb",
-      "https://drive.google.com/open?id=1562EOwwsfJY9tRm4rjhD_FATT6bHqJCR",
-      "https://drive.google.com/open?id=11iTCOM_A42AnXGEgLncAVDdc8y3EkLpr",
-      "https://drive.google.com/open?id=1HToa2qyW4UsDyTQhX2UJPB_e_mok4mVl",
-      "https://drive.google.com/open?id=1tOCQI_VZ8rmIeSt53Ep5iLoG2zTiYCsE",
-      "https://drive.google.com/open?id=1zrQetYGKuAIXkt92u25UTfh7ewjvCyW3"
-    ]
+      "https://imgur.com/wtqiLRV",
+      "https://imgur.com/HudsvAw",
+      "https://imgur.com/FYbFZ1d",
+      "https://imgur.com/ne4D9tv",
+      "https://imgur.com/7YSnCtS",
+      "https://imgur.com/WJM9DBA"
+    ],
+    map: [18.792778, 98.953927]
   },
   {
     hotel_name: "อรอนงค์ แมนชั่น",
@@ -504,11 +525,8 @@ export const Data = [
     alley_name: "บ้านใหม่หลังมอ",
     alley_number: "7",
     high_season_price: 0,
-    image: [
-      "https://drive.google.com/open?id=1viQHyUdrFf6pQZroDNic_e6ccFho5vo-",
-      "https://drive.google.com/open?id=1pm7NOHgx1zUoNvk1yzvY39KlBv4KaEb6",
-      "https://drive.google.com/open?id=1dp1uN3yTuK5PIPN18WgtLWJ2KMvZTrKJ"
-    ]
+    image: ["https://imgur.com/ITK85kv", "https://imgur.com/ae3BTtt"],
+    map: [18.790937, 98.951898]
   },
   {
     hotel_name: "อิสรินทร์ แมนชั่น",
@@ -526,12 +544,13 @@ export const Data = [
     alley_number: "7",
     high_season_price: 0,
     image: [
-      "https://drive.google.com/open?id=1tbq6CUFNflR2srBANFhzd4gnSWP2d94K",
-      "https://drive.google.com/open?id=1AvyP8TdhvLHdq_ZhkMyksilzrwiXt_Kn",
-      "https://drive.google.com/open?id=1AzLF340ze3FnSpN7G5NVUeyxuBDW7Zj7",
-      "https://drive.google.com/open?id=13ljS1X5bOAr19We7tvecBErLVDvAglqw",
-      "https://drive.google.com/open?id=1k_cYtjwA27xPEOJkOlEd-qkCyxGOkYVh"
-    ]
+      "https://imgur.com/dg4dfva",
+      "https://imgur.com/DGPFbhR",
+      "https://imgur.com/ScHQtEe",
+      "https://imgur.com/BKSsCIZ",
+      "https://imgur.com/T4r1N5y"
+    ],
+    map: [18.7923048, 98.9506897]
   }
 ];
 

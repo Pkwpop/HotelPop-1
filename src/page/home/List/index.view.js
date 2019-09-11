@@ -33,6 +33,7 @@ export const List = () => {
               Electronics={res.facilities.electronics}
               Furniture={res.facilities.ferniture}
               Person={res.person}
+              Maps={res.map}
             />
           </Col>
         ))}
