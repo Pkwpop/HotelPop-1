@@ -3,9 +3,12 @@ import { Select } from "antd";
 import { Data } from "../data";
 
 class SearchPrice extends React.Component {
-  state = {
-    value: undefined
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: undefined
+    };
+  }
   handleSearch = value => {
     if (value) {
       fetch(value, data => this.setState({ data }));
@@ -16,6 +19,7 @@ class SearchPrice extends React.Component {
 
   handleChange = value => {
     this.setState({ value });
+    this.props.handleChange(value);
   };
 
   render() {
@@ -31,7 +35,7 @@ class SearchPrice extends React.Component {
       >
         <Select key="1">{"< 500฿ "}</Select>
         <Select key="2">{"500 - 1,000฿"}</Select>
-        <Select key="3">{"< 1,000฿"}</Select>
+        <Select key="3">{"> 1,000฿"}</Select>
       </Select>
     );
   }

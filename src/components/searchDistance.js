@@ -3,9 +3,12 @@ import { Select } from "antd";
 import { Data } from "../data";
 
 class SearchDistance extends React.Component {
-  state = {
-    value: undefined
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: undefined
+    };
+  }
   handleSearch = value => {
     if (value) {
       fetch(value, data => this.setState({ data }));
@@ -16,6 +19,7 @@ class SearchDistance extends React.Component {
 
   handleChange = value => {
     this.setState({ value });
+    this.props.handleChange(value);
   };
 
   render() {

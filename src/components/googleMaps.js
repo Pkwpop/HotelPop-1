@@ -8,7 +8,7 @@ class MapComponent extends React.Component {
         lat: this.props.Latitude,
         lng: this.props.Longitude
       },
-      zoom: 19
+      zoom: 17
     };
   }
 

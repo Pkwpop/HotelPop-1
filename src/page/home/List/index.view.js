@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import { Data } from "../../../data";
 import { ContentCard } from "../../../components/ContentCard";
 import { Row, Col } from "antd";
 
@@ -15,13 +14,20 @@ export const ListBox = styled.div`
   box-shadow: 3px 3px 15px grey;
 `;
 
-export const List = () => {
+export const List = props => {
+  console.log(props.HotelData);
   return (
     <ListBox>
       <Row>
-        {Data.map(res => (
-          <Col md={{ span: 12 }} lg={{ span: 12 }} xl={{ span: 8 }}>
+        {props.HotelData.map(res => (
+          <Col
+            key={res.hotel_name}
+            md={{ span: 12 }}
+            lg={{ span: 12 }}
+            xl={{ span: 8 }}
+          >
             <ContentCard
+              key={res.hotel_name}
               Name={res.hotel_name}
               Image={res.image}
               Allay={res.alley_number + "  " + res.alley_name}

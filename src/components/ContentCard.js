@@ -35,9 +35,9 @@ export const ContentCard = ({
         style={{ width: "94%", margin: 10 }}
         cover={
           <img
-            style={{ height: "100%", width: "100%" }}
+            style={{ height: "300px", width: "300px" }}
             alt="example"
-            src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+            src={Image[0] + ".png"}
           />
         }
       >
@@ -56,75 +56,84 @@ export const ContentCard = ({
             <div>
               <img
                 style={{ width: 300, height: 300, margin: "auto" }}
-                src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+                src={res + ".png"}
                 alt="example"
               />
             </div>
           ))}
         </Carousel>
-        <Row>
-          <Col span={8}>
-            <div>
-              <div style={{ height: 60, display: "flex" }}>
-                <div style={{ margin: 2 }}>
-                  <MapPin width={30} />
+        <div
+          style={{
+            margin: 10,
+            borderRadius: 20,
+            boxShadow: "3px 3px 15px grey",
+            padding: 10
+          }}
+        >
+          <Row>
+            <Col span={8}>
+              <div>
+                <div style={{ height: 60, display: "flex" }}>
+                  <div style={{ margin: 2 }}>
+                    <MapPin width={30} />
+                  </div>
+                  {Address}
                 </div>
-                {Address}
+                <div style={{ margin: 2, height: 60, display: "flex" }}>
+                  <div style={{ margin: 2 }}>
+                    <Car width={30} /> ระยะทางจาก มช. {Distance} เมตร.
+                  </div>
+                </div>
+                <div style={{ height: 60, display: "flex" }}>
+                  <div style={{ margin: 2 }}>
+                    <Elec width={30} />
+                  </div>
+                  <div style={{ display: "flex", margin: 2, height: 60 }}>
+                    เครื่องใช้ไฟฟ้า:
+                    {Electronics.map(res => {
+                      return `  ${res},`;
+                    })}
+                  </div>
+                </div>
               </div>
-              <div style={{ margin: 2, height: 60, display: "flex" }}>
-                <div style={{ margin: 2 }}>
-                  <Car width={30} /> ระยะทางจาก มช. {Distance} เมตร.
-                </div>
-              </div>
-              <div style={{ height: 60, display: "flex" }}>
-                <div style={{ margin: 2 }}>
-                  <Elec width={30} />
-                </div>
-                <div style={{ display: "flex", margin: 2, height: 60 }}>
-                  เครื่องใช้ไฟฟ้า:
-                  {Electronics.map(res => {
+            </Col>
+            <Col span={8}>
+              <div>
+                <div style={{ height: 60, display: "flex" }}>
+                  <div style={{ margin: 2 }}>
+                    <Bed width={30} />
+                  </div>
+                  เฟอร์นิเจอร์:
+                  {Furniture.map(res => {
                     return `  ${res},`;
                   })}
                 </div>
-              </div>
-            </div>
-          </Col>
-          <Col span={8}>
-            <div>
-              <div style={{ height: 60, display: "flex" }}>
-                <div style={{ margin: 2 }}>
-                  <Bed width={30} />
+                <div style={{ height: 60, display: "flex" }}>
+                  <div>
+                    <Phone width={30} />{" "}
+                    {PhoneNumber.map(res => {
+                      return ` ${res},`;
+                    })}
+                  </div>
                 </div>
-                เฟอร์นิเจอร์:
-                {Furniture.map(res => {
-                  return `  ${res},`;
-                })}
-              </div>
-              <div style={{ height: 60, display: "flex" }}>
-                <div>
-                  <Phone width={30} />{" "}
-                  {PhoneNumber.map(res => {
-                    return ` ${res},`;
-                  })}
+                <div style={{ display: "flex" }}>
+                  <div style={{ margin: "auto" }}>
+                    <Wifi width={30} /> ฟรีไวไฟ
+                  </div>
+                  <div style={{ margin: "auto" }}>
+                    <People width={30} /> {Person}
+                  </div>
+                  <div style={{ margin: "auto" }}>
+                    <PriceTag width={30} /> {Price + " บาท"}
+                  </div>
                 </div>
               </div>
-              <div style={{ display: "flex" }}>
-                <div style={{ margin: "auto" }}>
-                  <Wifi width={30} /> ฟรีไวไฟ
-                </div>
-                <div style={{ margin: "auto" }}>
-                  <People width={30} /> {Person}
-                </div>
-                <div style={{ margin: "auto" }}>
-                  <PriceTag width={30} /> {Price + " บาท"}
-                </div>
-              </div>
-            </div>
-          </Col>
-          <Col span={8}>
-            <MapComponent Latitude={Maps[0]} Longitude={Maps[1]} />
-          </Col>
-        </Row>
+            </Col>
+            <Col span={8}>
+              <MapComponent Latitude={Maps[0]} Longitude={Maps[1]} />
+            </Col>
+          </Row>
+        </div>
       </Modal>
     </div>
   );

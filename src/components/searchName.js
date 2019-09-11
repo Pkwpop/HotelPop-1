@@ -2,10 +2,15 @@ import React from "react";
 import { Select } from "antd";
 import { Data, Alley } from "../data";
 
+const { Option } = Select;
+
 class SearchName extends React.Component {
-  state = {
-    value: undefined
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      value: undefined
+    };
+  }
   handleSearch = value => {
     if (value) {
       fetch(value, data => this.setState({ data }));
@@ -16,10 +21,11 @@ class SearchName extends React.Component {
 
   handleChange = value => {
     this.setState({ value });
+    this.props.handleChange(value);
   };
 
   render() {
-    const option = Alley.map(res => <Select key={res.name}>{res.name}</Select>);
+    const option = Alley.map(res => <Option key={res.name}>{res.name}</Option>);
     return (
       <Select
         showSearch
