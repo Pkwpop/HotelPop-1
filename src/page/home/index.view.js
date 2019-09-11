@@ -7,10 +7,11 @@ import { Modals } from "../../components/modal";
 import { Data } from "../../data";
 
 export const Wrapper = styled.div`
-  width: 100vw;
+  width: 98vw;
   height: 100vh;
   box-sizing: border-box;
   position: relative;
+  margin-bottom: 20px;
 `;
 
 export const ContentBox = styled.div`
@@ -21,6 +22,7 @@ export const ContentBox = styled.div`
   margin: auto;
   margin-top: 5vh;
   border-radius: 20px;
+  margin-bottom: 5vh
   box-shadow: 3px 3px 15px grey;
 `;
 

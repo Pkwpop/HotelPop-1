@@ -6,13 +6,16 @@ import styled from "styled-components";
 const Nav = styled.div`
   id="navbar";
   overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 30px 10px;
+  background-color: #2C3E50;
+  height: 9vh;
   transition: 0.4s;
   position: fixed;
   width: 100%;
   top: 0;
   z-index: 99;
+  font-size: 30px;
+  font-weight: 600;
+  color: #DADADA;
 `;
 
 const Wrapper = styled.div``;
@@ -20,7 +23,11 @@ const Wrapper = styled.div``;
 export const Navbar = () => {
   return (
     <Wrapper>
-      <Nav />
+      <Nav style={{ fontFamily: "'Montserrat', sans-serif" }}>
+        <div style={{ width: "10vw", marginLeft: "auto", cursor: "pointer" }}>
+          About
+        </div>
+      </Nav>
       <Menu mode="horizontal" theme="dark">
         <Menu.Item
           style={{

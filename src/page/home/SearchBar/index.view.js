@@ -1,4 +1,4 @@
-import React, { useState, Component } from "react";
+import React, { Component } from "react";
 import styled from "styled-components";
 import SearchName from "../../../components/searchName";
 import SearchDistance from "../../../components/searchDistance";
