@@ -35,7 +35,7 @@ export const ContentCard = ({
         style={{ width: "94%", margin: 10 }}
         cover={
           <img
-            style={{ height: "300px", width: "300px", objectFit: "cover" }}
+            style={{ height: "300px", width: "100%", objectFit: "cover" }}
             alt="example"
             src={Image[0] + ".png"}
           />

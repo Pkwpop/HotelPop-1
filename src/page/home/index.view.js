@@ -3,12 +3,16 @@ import { Navbar } from "../../components/navbar";
 import styled from "styled-components";
 import SearchBar from "./SearchBar/index.view";
 import { List } from "./List/index.view";
-import { Modals } from "../../components/modal";
 import { Data } from "../../data";
 
 export const Wrapper = styled.div`
-  width: 98vw;
-  height: 100vh;
+  background-image: url("https://i.imgur.com/5jmKEEk.png");
+  position: absolute;
+`;
+
+export const ContentWrapper = styled.div`
+  width: 98%;
+  height: 100%;
   box-sizing: border-box;
   position: relative;
   margin-bottom: 20px;
@@ -16,14 +20,15 @@ export const Wrapper = styled.div`
 
 export const ContentBox = styled.div`
   padding: 10px;
-  max-width: 80vw;
-  min-height: 80vh;
+  max-width: 80%;
+  min-height: 80%;
   position: relative;
   margin: auto;
   margin-top: 5vh;
   border-radius: 20px;
   margin-bottom: 5vh
   box-shadow: 3px 3px 15px grey;
+  background: white;
 `;
 
 class Home extends React.Component {
@@ -33,7 +38,6 @@ class Home extends React.Component {
   };
 
   handleClick = e => {
-    console.log("click ", e);
     this.setState({
       current: e.key
     });
@@ -110,12 +114,14 @@ class Home extends React.Component {
   render() {
     return (
       <Wrapper>
-        <Navbar />
-        <ContentBox>
-          <SearchBar onClikedSeach={this.onSearch} />
-          {/* <SelectedDropdown /> */}
-          <List HotelData={this.state.data} />
-        </ContentBox>
+        <ContentWrapper>
+          <Navbar />
+          <ContentBox>
+            <SearchBar onClikedSeach={this.onSearch} />
+            {/* <SelectedDropdown /> */}
+            <List HotelData={this.state.data} />
+          </ContentBox>
+        </ContentWrapper>
       </Wrapper>
     );
   }
