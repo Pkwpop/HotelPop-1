@@ -27,7 +27,7 @@ class SearchPrice extends React.Component {
       <Select
         placeholder="ราคา"
         style={{ width: 120, textAlign: "center", margin: 5 }}
-        showArrow={false}
+        showArrow={true}
         notFoundContent={null}
         value={this.state.value}
         onSearch={this.handleSearch}

@@ -27,7 +27,7 @@ class SearchDistance extends React.Component {
       <Select
         placeholder="ระยะทาง"
         style={{ width: 120, margin: 5 }}
-        showArrow={false}
+        showArrow={true}
         notFoundContent={null}
         value={this.state.value}
         onSearch={this.handleSearch}

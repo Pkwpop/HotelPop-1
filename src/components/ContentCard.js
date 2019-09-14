@@ -35,7 +35,7 @@ export const ContentCard = ({
         style={{ width: "94%", margin: 10 }}
         cover={
           <img
-            style={{ height: "300px", width: "300px" }}
+            style={{ height: "300px", width: "300px", objectFit: "cover" }}
             alt="example"
             src={Image[0] + ".png"}
           />
@@ -55,7 +55,12 @@ export const ContentCard = ({
           {Image.map(res => (
             <div>
               <img
-                style={{ width: 300, height: 300, margin: "auto" }}
+                style={{
+                  width: 300,
+                  height: 300,
+                  margin: "auto",
+                  objectFit: "cover"
+                }}
                 src={res + ".png"}
                 alt="example"
               />

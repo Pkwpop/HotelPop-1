@@ -31,7 +31,7 @@ class SearchName extends React.Component {
         showSearch
         placeholder="ซอย"
         style={{ width: "40%", margin: 5 }}
-        showArrow={false}
+        showArrow={true}
         notFoundContent={null}
         value={this.state.value}
         onSearch={this.handleSearch}
