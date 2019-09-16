@@ -8,6 +8,7 @@ import { Data } from "../../data";
 export const Wrapper = styled.div`
   background-image: url("https://i.imgur.com/5jmKEEk.png");
   position: absolute;
+  width: 100%;
 `;
 
 export const ContentWrapper = styled.div`
@@ -34,7 +35,8 @@ export const ContentBox = styled.div`
 class Home extends React.Component {
   state = {
     current: "mail",
-    data: Data
+    data: Data,
+    haveData: "ไม่พบรายการที่ค้นหา"
   };
 
   handleClick = e => {
@@ -107,11 +109,18 @@ class Home extends React.Component {
       }
       this.setState({ data: arrayPrice });
     } else {
-      this.setState({ date: Data });
+      this.setState({ data: Data });
     }
   };
 
   render() {
+    console.log(this.state.data);
+    if (this.state.data == [] && this.state.haveData != "ไม่พบรายการที่ค้นหา") {
+      this.setState({ haveData: "ไม่พบรายการที่ค้นหา" });
+    } else if (this.state.data != [] && this.state.haveData !== "") {
+      console.log(this.state.data, this.state.haveData);
+      this.setState({ haveData: "" });
+    }
     return (
       <Wrapper>
         <ContentWrapper>
@@ -119,7 +128,7 @@ class Home extends React.Component {
           <ContentBox>
             <SearchBar onClikedSeach={this.onSearch} />
             {/* <SelectedDropdown /> */}
-            <List HotelData={this.state.data} />
+            <List HotelData={this.state.data} haveData={this.state.haveData} />
           </ContentBox>
         </ContentWrapper>
       </Wrapper>

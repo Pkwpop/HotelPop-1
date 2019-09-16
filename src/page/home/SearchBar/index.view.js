@@ -43,12 +43,24 @@ export default class SearchBar extends Component {
     );
   };
 
+  onReset = () => {
+    this.setState({ Name: "", Distance: "", Price: "" });
+    this.props.onClikedSeach("", "", "");
+  };
+
   render() {
     return (
       <SearchBox>
         <SearchName handleChange={this.searchName} />
         <SearchDistance handleChange={this.searchDistance} />
         <SearchPrice handleChange={this.searchPrice} />
+        <Button
+          type="primary"
+          shape="circle"
+          icon="sync"
+          style={{ float: "right", margin: 5 }}
+          onClick={this.onReset}
+        />
         <Button
           type="primary"
           shape="circle"
