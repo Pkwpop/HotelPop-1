@@ -23,9 +23,7 @@ export const ContentCard = ({
   Maps
 }) => {
   const [visible, setVisibleModal] = useState(false);
-  useEffect(() => {
-    document.title = `You clicked ${visible} times`;
-  });
+  useEffect(() => {});
 
   return (
     <div>

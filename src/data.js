@@ -18,7 +18,7 @@ export const Data = [
     address: "81 หมู่ 14 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["066-1189542", "089-8535523"],
-    alley_name: "แดนตะวัน",
+    alley_name: "ซอย 1 แดนตะวัน",
     alley_number: "1",
     high_season_price: 0,
     image: [
@@ -53,7 +53,7 @@ export const Data = [
     address: "68 หมู่ 8 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["090-1501489"],
-    alley_name: "เภสัชกรโต",
+    alley_name: "ซอย 2 เภสัชกรโต",
     alley_number: "2",
     high_season_price: 0,
     image: ["https://imgur.com/vMQILQC", "https://imgur.com/e13mJao"],
@@ -77,7 +77,7 @@ export const Data = [
     address: "63/21 หมู่ 8 ตำบลสุเทพ อำเภอเมือง  จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["084-3322778", "082-3247650", "092-5356151"],
-    alley_name: "เภสัชกรโต",
+    alley_name: "ซอย 2 เภสัชกรโต",
     alley_number: "2",
     high_season_price: 0,
     image: [
@@ -107,7 +107,7 @@ export const Data = [
     address: "62 หมู่ 8 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["063-7804777"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 1200,
     image: [
@@ -139,7 +139,7 @@ export const Data = [
     address: "114 หมู่ 14 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["053-810038"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 600,
     image: [
@@ -169,7 +169,7 @@ export const Data = [
     address: "52/4 หมู่ 8 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["084-6082275"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -200,7 +200,7 @@ export const Data = [
     address: "70 หมู่ 8 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["053-3281878"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -224,7 +224,7 @@ export const Data = [
     address: "12/5 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["053-329237", "053-329299", "081-6032973"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -252,7 +252,7 @@ export const Data = [
     address: "100 หมู่ 14 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["053-328111"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -280,7 +280,7 @@ export const Data = [
     address: "65/64 หมู่ 10 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["094-2512709"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -312,7 +312,7 @@ export const Data = [
     address: "108 หมู่ 8 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["053-3282878"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -336,7 +336,7 @@ export const Data = [
     address: "56/4 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["088-4085875"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -366,7 +366,7 @@ export const Data = [
     address: "108 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["093-2644811"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -394,7 +394,7 @@ export const Data = [
     address: "34/16 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["081-0349990", "081-7832890"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -423,7 +423,7 @@ export const Data = [
     address: "34/16 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["081-7832890", "081-8751747"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: [
@@ -449,7 +449,7 @@ export const Data = [
     address: "38/5 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["053810581", "086-4485918", "084-0459984"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "4",
     high_season_price: 0,
     image: ["https://imgur.com/7S5lkKL", "https://imgur.com/tcEeeiE"],
@@ -473,7 +473,7 @@ export const Data = [
     address: "90/40 หมู่ 14 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["089-6387782"],
-    alley_name: "วัดป่าแดง",
+    alley_name: "ซอย 4 วัดป่าแดง",
     alley_number: "5",
     high_season_price: 0,
     image: [
@@ -564,7 +564,7 @@ export const Data = [
     address: "149 หมู่ 10 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["088-2546292", "-", "-"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "7",
     high_season_price: 0,
     image: [
@@ -589,7 +589,7 @@ export const Data = [
       "ต้นโมกข์แมนชั่น ด้านหลัง มช. ถนนอุโมงค์ ซอย 11 ต.สุเทพ อ.เมือง จ.เชียงใหม่",
     post_code: 50200,
     phone_number: ["053-881444"],
-    alley_name: "เภสัชกรโต",
+    alley_name: "ซอย 2 เภสัชกรโต",
     alley_number: "7",
     high_season_price: 0,
     image: [
@@ -612,7 +612,7 @@ export const Data = [
     address: "15/9 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["095-6191849"],
-    alley_name: "วัดอุโมงค์",
+    alley_name: "ซอย 4 วัดอุโมงค์",
     alley_number: "7",
     high_season_price: 0,
     image: [
@@ -626,14 +626,14 @@ export const Data = [
 ];
 
 export const Alley = [
-  { name: "แดนตะวัน" },
-  { name: "เภสัชกรโต" },
-  { name: "วัดอุโมงค์" },
+  { name: "ซอย 1 แดนตะวัน" },
+  { name: "ซอย 2 เภสัชกรโต" },
+  { name: "ซอย 4 วัดอุโมงค์" },
   {
-    name: "วัดป่าแดง"
+    name: "ซอย 4 วัดป่าแดง"
   },
-  { name: "บ้านใหม่หลังมอ ซอย 6" },
+  { name: "ซอย 6 บ้านใหม่หลังมอ" },
   {
-    name: "บ้านใหม่หลังมอ ซอย 7"
+    name: "ซอย 7 บ้านใหม่หลังมอ"
   }
 ];

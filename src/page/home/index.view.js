@@ -124,7 +124,9 @@ class Home extends React.Component {
             <List
               HotelData={this.state.data}
               haveData={
-                this.state.data.length === 0 ? "ไม่พบรายการที่ค้นหา" : ""
+                this.state.data.length === 0
+                  ? "ไม่พบรายการที่ค้นหา"
+                  : `ค้นพบ ${this.state.data.length} รายการ`
               }
             />
           </ContentBox>
