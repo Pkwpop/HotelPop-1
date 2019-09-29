@@ -113,6 +113,16 @@ class Home extends React.Component {
     }
   };
 
+  searchResult = () => {
+    if (this.state.data.length === 0) {
+      return "ไม่พบรายการที่ค้นหา";
+    } else if (this.state.data.length !== 0 && this.state.data.length !== 23) {
+      return `ค้นพบ ${this.state.data.length} รายการ`;
+    } else {
+      return "";
+    }
+  };
+
   render() {
     return (
       <Wrapper>
@@ -121,14 +131,7 @@ class Home extends React.Component {
           <ContentBox>
             <SearchBar onClikedSeach={this.onSearch} />
             {/* <SelectedDropdown /> */}
-            <List
-              HotelData={this.state.data}
-              haveData={
-                this.state.data.length === 0
-                  ? "ไม่พบรายการที่ค้นหา"
-                  : `ค้นพบ ${this.state.data.length} รายการ`
-              }
-            />
+            <List HotelData={this.state.data} haveData={this.searchResult()} />
           </ContentBox>
         </ContentWrapper>
       </Wrapper>
