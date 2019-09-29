@@ -29,7 +29,7 @@ class SearchDistance extends React.Component {
         style={{ width: 120, margin: 5 }}
         showArrow={true}
         notFoundContent={null}
-        value={this.state.value}
+        value={this.props.value}
         onSearch={this.handleSearch}
         onChange={this.handleChange}
       >

@@ -15,10 +15,9 @@ export const ListBox = styled.div`
 `;
 
 export const List = props => {
-  console.log(props.haveData);
   return (
     <ListBox>
-      <p style={{ fontSize: 30, textAlign: "center" }}>{props.haveData}</p>
+      <div style={{ fontSize: 30, textAlign: "center" }}>{props.haveData}</div>
       <Row>
         {props.HotelData.map(res => (
           <Col

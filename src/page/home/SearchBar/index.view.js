@@ -26,13 +26,13 @@ export default class SearchBar extends Component {
   }
 
   searchName = value => {
-    this.setState({ Name: value });
+    this.setState({ Name: value, nameValue: value });
   };
   searchDistance = value => {
-    this.setState({ Distance: value });
+    this.setState({ Distance: value, distanceValue: value });
   };
   searchPrice = value => {
-    this.setState({ Price: value });
+    this.setState({ Price: value, priceValue: value });
   };
 
   onSearch = () => {
@@ -44,16 +44,30 @@ export default class SearchBar extends Component {
   };
 
   onReset = () => {
-    this.setState({ Name: "", Distance: "", Price: "" });
+    this.setState({ Name: undefined, Distance: undefined, Price: undefined });
+    this.setState({
+      nameValue: undefined,
+      distanceValue: undefined,
+      priceValue: undefined
+    });
     this.props.onClikedSeach("", "", "");
   };
 
   render() {
     return (
       <SearchBox>
-        <SearchName handleChange={this.searchName} />
-        <SearchDistance handleChange={this.searchDistance} />
-        <SearchPrice handleChange={this.searchPrice} />
+        <SearchName
+          handleChange={this.searchName}
+          value={this.state.nameValue}
+        />
+        <SearchDistance
+          handleChange={this.searchDistance}
+          value={this.state.distanceValue}
+        />
+        <SearchPrice
+          handleChange={this.searchPrice}
+          value={this.state.priceValue}
+        />
         <Button
           type="primary"
           shape="circle"

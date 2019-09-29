@@ -33,7 +33,7 @@ class SearchName extends React.Component {
         style={{ width: "40%", margin: 5 }}
         showArrow={true}
         notFoundContent={null}
-        value={this.state.value}
+        value={this.props.value}
         onSearch={this.handleSearch}
         onChange={this.handleChange}
       >

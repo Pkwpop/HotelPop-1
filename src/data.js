@@ -497,7 +497,7 @@ export const Data = [
     address: "81 หมู่ 14 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["066-1189542", "089-8535523"],
-    alley_name: "บ้านใหม่หลังมอ",
+    alley_name: "บ้านใหม่หลังมอ ซอย 6",
     alley_number: "6",
     high_season_price: 0,
     image: [
@@ -522,7 +522,7 @@ export const Data = [
     address: "5 หมู่ 14 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["053-328444"],
-    alley_name: "บ้านใหม่หลังมอ",
+    alley_name: "บ้านใหม่หลังมอ ซอย 7",
     alley_number: "7",
     high_season_price: 0,
     image: ["https://imgur.com/ITK85kv", "https://imgur.com/ae3BTtt"],
@@ -540,7 +540,7 @@ export const Data = [
     address: "123 หมู่ 14 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["093-2659829", "093-1975289", "061-8019991"],
-    alley_name: "บ้านใหม่หลังมอ",
+    alley_name: "บ้านใหม่หลังมอ ซอย 7",
     alley_number: "7",
     high_season_price: 0,
     image: [
@@ -551,6 +551,77 @@ export const Data = [
       "https://imgur.com/T4r1N5y"
     ],
     map: [18.7923048, 98.9506897]
+  },
+  {
+    hotel_name: "บ้านออมสิน",
+    person: 2,
+    facilities: {
+      electronics: ["แอร์", "เครื่องทำน้ำอุ่น", "Wifi"],
+      ferniture: ["เตียงนอน", "ตู้เสื้อผ้า", "โต๊ะเครื่องแป้ง", "โต๊ะทำงาน"]
+    },
+    price: 350,
+    distance: 1100,
+    address: "149 หมู่ 10 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
+    post_code: 50200,
+    phone_number: ["088-2546292", "-", "-"],
+    alley_name: "วัดอุโมงค์",
+    alley_number: "7",
+    high_season_price: 0,
+    image: [
+      "https://imgur.com/itM0zsZ",
+      "https://imgur.com/6FLmpO1",
+      "https://imgur.com/JMMAD5j",
+      "https://imgur.com/zdIt3ii",
+      "https://imgur.com/KEijef9"
+    ],
+    map: [18.784256, 98.953317]
+  },
+  {
+    hotel_name: "ต้นโมกข์ แมนชั่น",
+    person: 2,
+    facilities: {
+      electronics: ["แอร์", "เครื่องทำน้ำอุ่น", "Wifi"],
+      ferniture: ["เตียงนอน", "ตู้เสื้อผ้า", "โต๊ะเครื่องแป้ง", "โต๊ะทำงาน"]
+    },
+    price: 400,
+    distance: 810,
+    address:
+      "ต้นโมกข์แมนชั่น ด้านหลัง มช. ถนนอุโมงค์ ซอย 11 ต.สุเทพ อ.เมือง จ.เชียงใหม่",
+    post_code: 50200,
+    phone_number: ["053-881444"],
+    alley_name: "เภสัชกรโต",
+    alley_number: "7",
+    high_season_price: 0,
+    image: [
+      " https://imgur.com/8G8i5Y9",
+      " https://imgur.com/A051LtS",
+      " https://imgur.com/qFkt67a",
+      " https://imgur.com/1iEhmhJ"
+    ],
+    map: [18.7860005, 98.9573135]
+  },
+  {
+    hotel_name: "The Passion",
+    person: 2,
+    facilities: {
+      electronics: ["แอร์", "เครื่องทำน้ำอุ่น", "Wifi"],
+      ferniture: ["เตียงนอน", "ตู้เสื้อผ้า", "โต๊ะเครื่องแป้ง", "โต๊ะทำงาน"]
+    },
+    price: 590,
+    distance: 2100,
+    address: "15/9 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
+    post_code: 50200,
+    phone_number: ["095-6191849"],
+    alley_name: "วัดอุโมงค์",
+    alley_number: "7",
+    high_season_price: 0,
+    image: [
+      " https://imgur.com/wWpCk4r",
+      " https://imgur.com/xg6gkia",
+      " https://imgur.com/12FmFSD",
+      " https://imgur.com/VQiqpTr"
+    ],
+    map: [18.777427, 98.950984]
   }
 ];
 
@@ -561,5 +632,8 @@ export const Alley = [
   {
     name: "วัดป่าแดง"
   },
-  { name: "บ้านใหม่หลังมอ" }
+  { name: "บ้านใหม่หลังมอ ซอย 6" },
+  {
+    name: "บ้านใหม่หลังมอ ซอย 7"
+  }
 ];
