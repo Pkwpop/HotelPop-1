@@ -473,7 +473,7 @@ export const Data = [
     address: "90/40 หมู่ 14 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["089-6387782"],
-    alley_name: "ซอย 4 วัดป่าแดง",
+    alley_name: "ซอย 5 วัดป่าแดง",
     alley_number: "5",
     high_season_price: 0,
     image: [
@@ -564,7 +564,7 @@ export const Data = [
     address: "149 หมู่ 10 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["088-2546292", "-", "-"],
-    alley_name: "ซอย 4 วัดอุโมงค์",
+    alley_name: "บ้านใหม่หลังมอ ซอย 7",
     alley_number: "7",
     high_season_price: 0,
     image: [
@@ -589,7 +589,7 @@ export const Data = [
       "ต้นโมกข์แมนชั่น ด้านหลัง มช. ถนนอุโมงค์ ซอย 11 ต.สุเทพ อ.เมือง จ.เชียงใหม่",
     post_code: 50200,
     phone_number: ["053-881444"],
-    alley_name: "ซอย 2 เภสัชกรโต",
+    alley_name: "บ้านใหม่หลังมอ ซอย 7",
     alley_number: "7",
     high_season_price: 0,
     image: [
@@ -612,7 +612,7 @@ export const Data = [
     address: "15/9 หมู่ 5 ตำบลสุเทพ อำเภอเมือง จังหวัดเชียงใหม่",
     post_code: 50200,
     phone_number: ["095-6191849"],
-    alley_name: "ซอย 4 วัดอุโมงค์",
+    alley_name: "บ้านใหม่หลังมอ ซอย 7",
     alley_number: "7",
     high_season_price: 0,
     image: [
@@ -630,7 +630,7 @@ export const Alley = [
   { name: "ซอย 2 เภสัชกรโต" },
   { name: "ซอย 4 วัดอุโมงค์" },
   {
-    name: "ซอย 4 วัดป่าแดง"
+    name: "ซอย 5 วัดป่าแดง"
   },
   { name: "ซอย 6 บ้านใหม่หลังมอ" },
   {

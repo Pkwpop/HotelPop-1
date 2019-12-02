@@ -39,7 +39,7 @@ export const ContentCard = ({
           />
         }
       >
-        <Meta title={Name} description={`ซอย ` + Allay} />
+        <Meta title={Name} description={Allay} />
         <Meta description={"฿" + Price} />
       </Card>
       <Modal
@@ -50,8 +50,8 @@ export const ContentCard = ({
         footer={null}
       >
         <Carousel autoplay>
-          {Image.map(res => (
-            <div>
+          {Image.map((res,index) => (
+            <div key={index}>
               <img
                 style={{
                   width: 300,

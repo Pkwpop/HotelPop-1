@@ -58,6 +58,7 @@ class Home extends React.Component {
   };
 
   onSearch = (Name, Distance, Price) => {
+    console.log(Name,Distance,Price)
     if (Name || Distance || Price) {
       this.changeState(Name, Distance, Price);
       let arrayName = [];
@@ -78,11 +79,11 @@ class Home extends React.Component {
           .map(res => arrayDistance.push(res));
       } else if (Distance == 2) {
         arrayName
-          .filter(res => res.distance > 1001 && res.distance < 2000)
+          .filter(res => res.distance >= 1000 && res.distance <= 2000)
           .map(res => arrayDistance.push(res));
       } else if (Distance == 3) {
         arrayName
-          .filter(res => res.distance > 2001 && res.distance < 3000)
+          .filter(res => res.distance >= 2001 && res.distance <= 3000)
           .map(res => arrayDistance.push(res));
       } else {
         arrayName
@@ -96,7 +97,7 @@ class Home extends React.Component {
           .map(res => arrayPrice.push(res));
       } else if (Price == 2) {
         arrayDistance
-          .filter(res => res.price >= 500 && res.price < 1000)
+          .filter(res => res.price >= 500 && res.price <= 1000)
           .map(res => arrayPrice.push(res));
       } else if (Price == 3) {
         arrayDistance

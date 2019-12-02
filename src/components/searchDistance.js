@@ -1,6 +1,7 @@
 import React from "react";
 import { Select } from "antd";
-import { Data } from "../data";
+
+const { Option } = Select;
 
 class SearchDistance extends React.Component {
   constructor(props) {
@@ -33,9 +34,9 @@ class SearchDistance extends React.Component {
         onSearch={this.handleSearch}
         onChange={this.handleChange}
       >
-        <Select key="1">{"< 1 km."}</Select>
-        <Select key="2">{"1 - 2 km."}</Select>
-        <Select key="3">{"2 - 3 km."}</Select>
+        <Option key="1">{"< 1 km."}</Option>
+        <Option key="2">{"1 - 2 km."}</Option>
+        <Option key="3">{"2 - 3 km."}</Option>
       </Select>
     );
   }

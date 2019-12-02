@@ -1,6 +1,7 @@
 import React from "react";
 import { Select } from "antd";
-import { Data } from "../data";
+
+const { Option } = Select;
 
 class SearchPrice extends React.Component {
   constructor(props) {
@@ -33,9 +34,9 @@ class SearchPrice extends React.Component {
         onSearch={this.handleSearch}
         onChange={this.handleChange}
       >
-        <Select key="1">{"< 500฿ "}</Select>
-        <Select key="2">{"500 - 1,000฿"}</Select>
-        <Select key="3">{"> 1,000฿"}</Select>
+        <Option key="1">{"< 500฿ "}</Option>
+        <Option key="2">{"500 - 1,000฿"}</Option>
+        <Option key="3">{"> 1,000฿"}</Option>
       </Select>
     );
   }

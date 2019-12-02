@@ -30,7 +30,7 @@ export const List = props => {
               key={res.hotel_name}
               Name={res.hotel_name}
               Image={res.image}
-              Allay={res.alley_number + "  " + res.alley_name}
+              Allay={res.alley_name}
               Price={res.price}
               Address={res.address}
               Distance={res.distance}
